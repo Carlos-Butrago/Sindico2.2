@@ -1,0 +1,57 @@
+﻿html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    margin-bottom: 0px;
+
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    height: 60px;
+    line-height: 60px;
+    margin: auto auto;
+}
+
+.dist-footer {
+    background-color: transparent;
+    width: auto;
+    height: 0px;
+}
+
+
+/*confugirações das navs e menu*/
+
+.logo {
+    float: left;
+    margin: 7px 30px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.form-bt {
+    float: right;
+    margin: 15px 30px;
+    display: inline-block;
+}
+
+.menu {
+    height: 65px;
+}
+
+.txt-menu {
+    margin: -5px 240px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+}
+
+

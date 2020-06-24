@@ -1,0 +1,400 @@
+﻿
+/*imagem carrousel*/
+
+.img-car {
+    width: 700px;
+    height: 400px;
+    margin: auto 80px;
+}
+
+.txt-car-1 {
+    margin: 0px 0px;
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+    width: 710px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.txt-car-2 {
+    margin: 0px 0px;
+    color: black;
+    background-color: burlywood;
+    opacity: 0.8;
+    width: 710px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.txt-car-3 {
+    margin: 0px 0px;
+    color: black;
+    background-color: darkgray;
+    opacity: 0.8;
+    width: 710px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*imagens que compõe o card inicial*/
+
+.card-1 {
+    width: 700px ;
+    height: 400px;
+    margin: 80px 80px;
+    background-color: white;
+}
+
+.img-1 {
+    float: left;
+    width: 320px;
+    height: 200px;
+    margin: 20px 15px;
+}
+
+.txt-img-1 {
+    float: left;
+    width: 320px;
+    height: 550px;
+    margin: -10px 20px;
+    padding: 8px;
+}
+
+.img-2 {
+    float: right;
+    width: 320px;
+    height: 200px;
+    margin: -750px 20px;
+}
+
+.txt-img-2 {
+    float: left;
+    width: 335px;
+    height: 25px;
+    margin: -540px 355px;
+    padding: 8px;
+}
+
+.img-ind {
+    background-image: url('/imagem/cond-parq.jpg');
+    width: 1345px;
+    height: 450px;
+    margin: 50px auto;
+}
+
+/*card da direita ao lado do carrousel*/
+
+.card-2 {
+    float: right;
+    background-color: white;
+    width: 541px;
+    height: 440px;
+    margin: -400px 21px;
+}
+
+.img-3 {
+    float: left;
+    width: 200px;
+    height: 125px;
+    margin: 0px 7px;
+}
+
+.txt-img-3 {
+    float: right;
+    width: 250px;
+    height: 50px;
+    margin: -125px 50px;
+}
+
+.txt-p3 {
+    margin: 15px auto;
+}
+
+
+.img-4 {
+    float: left;
+    width: 200px;
+    height: 125px;
+    margin: 12px 7px;
+}
+
+.txt-img-4 {
+    float: right;
+    width: 250px;
+    height: 50px;
+    margin: -142px 50px;
+}
+
+.txt-p4 {
+    margin: -15px auto;
+}
+
+.img-5 {
+    float: left;
+    width: 200px;
+    height: 125px;
+    margin: 0px 7px;
+}
+
+.txt-img-5 {
+    float: right;
+    width: 250px;
+    height: 50px;
+    margin: -125px 50px;
+}
+
+.txt-p5 {
+    margin: -15px auto;
+    height: 50px;
+}
+
+/*retângulo direito indicando informações*/
+
+.ret-0 {
+    float: right;
+    width: 530px;
+    height: 25px;
+    color: white;
+    background-color: darkred;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+.ret-1 {
+    float: right;
+    width: 530px;
+    height: 25px;
+    color: white;
+    background-color: dodgerblue;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+/*card da direita INFORMAÇÃO*/
+
+.card-3 {
+    float: right;
+    background-color: dodgerblue;
+    width: 541px;
+    height: 830px;
+    margin: -780px 21px;
+}
+
+/*card direita inferior SOLIDARIEDADE*/
+
+.img-6 {
+    width: 530px;
+    height: 250px;
+    margin: -5px 5px;
+}
+
+.txt-img-6 {
+    float: right;
+    width: 525px;
+    margin: 5px 10px;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+    position: unset;
+}
+
+.txt-p6 {
+    margin: 0px 5px;
+    font-size: 18px;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    height: 545px;
+    width: 530px;
+}
+
+
+/*Segundo card a esquerda após carrousel*/
+
+.card-4 {
+    width: 700px;
+    height: 400px;
+    margin: -50px 80px;
+    background-color: white;
+}
+
+.img-7 {
+    float: left;
+    width: 320px;
+    height: 200px;
+    margin: -320px 15px;
+}
+
+.txt-img-7 {
+    float: left;
+    width: 320px;
+    height: 550px;
+    margin: -100px 8px;
+    padding: 8px;
+}
+
+.img-8 {
+    float: right;
+    width: 320px;
+    height: 200px;
+    margin: -320px 20px;
+}
+
+.txt-img-8 {
+    float: right;
+    width: 320px;
+    height: 100px;
+    margin: -120px 20px;
+    padding: 8px;
+}
+
+
+/*última imagem da página index*/
+
+.img-ind2 {
+    height: 400px;
+    width: 1199px;
+    background: no-repeat;
+    margin: 130px 150px;
+}
+
+/*fundo texto da última imagem da página index*/
+.text-ind2 {
+    background: linear-gradient(90deg, white 10%, white 50%, transparent);
+    height: 400px;
+    margin: 0px -330px;
+    float: left;
+    padding: 80px;
+    width: 800px;
+}
+
+
+/*configuração menu e menu responsivo*/
+
+
+/*
+body {
+    font-family: Arial;
+}
+
+form {
+    float: right;
+    margin-right: 100px;
+    padding: 10px 0;
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav.logo {
+    background-color: seagreen;
+}
+
+
+label.logo {
+    color: white;
+    line-height: 100px;
+    padding: 0 160px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav.menu {
+    line-height: 60px;
+}
+
+ul.menu {
+    float: left;
+    margin-left: 121px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 25px;
+}
+
+
+
+    nav ul li a {
+        text-transform: uppercase;
+        color: seagreen;
+        font-family: Arial;
+        font-size: 0px;
+        padding: 7px 13px;
+        border-radius: 2px;
+        font-weight: bold;
+    }
+
+active, a:hover {
+    transition: .1s;
+    border-bottom-style: ridge;
+    border-color: darkgreen;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px){
+    label.logo {
+        padding-left: 50px;
+        font-size: 25px;
+    }
+}
+
+nav ul li a {
+    font-size: 16px;
+}
+
+@media (max-width: 858px){
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: darkslategrey;
+        top: 80px;
+        left: -100px;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+        nav ul li a {
+            font-size: 18px;
+        }
+
+    a:hover, a.active {
+        background: none;
+        color: white;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+   
+ */
