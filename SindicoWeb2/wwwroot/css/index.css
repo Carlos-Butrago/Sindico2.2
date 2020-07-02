@@ -43,7 +43,7 @@
 /*imagens que compõe o card inicial*/
 
 .card-1 {
-    width: 700px ;
+    width: 700px;
     height: 400px;
     margin: 80px 80px;
     background-color: white;
@@ -100,7 +100,7 @@
     float: left;
     width: 200px;
     height: 125px;
-    margin: 0px 7px;
+    margin: 5px 7px;
 }
 
 .txt-img-3 {
@@ -137,7 +137,7 @@
     float: left;
     width: 200px;
     height: 125px;
-    margin: 0px 7px;
+    margin: 5px 7px;
 }
 
 .txt-img-5 {
@@ -160,7 +160,7 @@
     height: 25px;
     color: white;
     background-color: darkred;
-    margin: 5px 5px;
+    margin: 0px 5px;
     text-align: center;
 }
 
@@ -271,6 +271,7 @@
     padding: 80px;
     width: 800px;
 }
+
 
 
 /*configuração menu e menu responsivo*/
