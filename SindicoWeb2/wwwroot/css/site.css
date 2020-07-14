@@ -29,26 +29,29 @@ body {
 /*confugirações das navs e menu*/
 
 .logo {
-    float: left;
-    margin: 7px 30px;
-    width: 200px;
-    height: 50px;
-    background-color: white;
-    text-align: center;
+    width: 350px;
+    height: 220px;
+    margin: -40px 480px;
 }
 
 .form-bt {
     float: right;
-    margin: 15px 30px;
+    margin: 5px 30px;
     display: inline-block;
 }
 
 .menu {
-    height: 65px;
+    height: 140px;
 }
 
+.menu1 {
+    height: 50px;
+    background-color: #245A64;
+}
+
+
 .txt-menu {
-    margin: -5px 240px;
+    margin: -25px 42px;
     width: 50px;
     height: 50px;
     font-size: 18px;

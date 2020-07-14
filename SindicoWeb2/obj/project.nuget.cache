@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GJaST5kZbW3MMyWLLbTCRc1ENBXcmEx5fYomlmStX2xwuRbM+nRotskj7JBvilcYyLGdwKNV/m/5aCWmDHkdhA==",
+  "dgSpecHash": "GewA6DWROSd2+MZokMwYyeKiBPtpU/4aEqa69CpYTdMKpnCdXsPPJ7neOxEbzbt6hDXBUd+Jyseqlwtnc6bZvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cadu_\\OneDrive\\Área de Trabalho\\SindicoWeb2\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\cadu_\\Desktop\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cadu_\\.nuget\\packages\\nuget.frameworks\\5.6.0\\nuget.frameworks.5.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

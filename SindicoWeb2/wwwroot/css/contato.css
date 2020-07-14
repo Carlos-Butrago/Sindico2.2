@@ -1,0 +1,51 @@
+﻿/*Card da esquerda*/
+
+.card-1 {
+    width: 655px;
+    height: 700px;
+    margin: -5px 0px;
+    background-color: white;
+}
+
+.txt-card-1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.img-wh {
+    float: right;
+    margin: -45px 140px;
+}
+
+
+/*Card da direita*/
+.card-2 {
+    float: right;
+    width: 650px;
+    height: 700px;
+    margin: -700px 0px;
+    background-color: transparent;
+}
+
+.txt-card-2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.camp-nome {
+    width: 330px;
+    margin: auto -120px;
+}
+
+.camp-e-mail {
+    width: 330px;
+    margin: -62px 215px;
+}
+
+.camp-mensagem {
+    width: 665px;
+    margin: 50px -120px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: none;
+}

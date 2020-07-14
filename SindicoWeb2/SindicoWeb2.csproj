@@ -8,4 +8,8 @@
     <Content Remove="wwwroot\css\index.css~RF28f1d87a.TMP" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NuGet.Frameworks" Version="5.6.0" />
+  </ItemGroup>
+
 </Project>

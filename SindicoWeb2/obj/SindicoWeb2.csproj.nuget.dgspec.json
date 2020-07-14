@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cadu_\\OneDrive\\Área de Trabalho\\SindicoWeb2\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj": {}
+    "C:\\Users\\cadu_\\Desktop\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cadu_\\OneDrive\\Área de Trabalho\\SindicoWeb2\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj": {
+    "C:\\Users\\cadu_\\Desktop\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cadu_\\OneDrive\\Área de Trabalho\\SindicoWeb2\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
+        "projectUniqueName": "C:\\Users\\cadu_\\Desktop\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
         "projectName": "SindicoWeb2",
-        "projectPath": "C:\\Users\\cadu_\\OneDrive\\Área de Trabalho\\SindicoWeb2\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
+        "projectPath": "C:\\Users\\cadu_\\Desktop\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
         "packagesPath": "C:\\Users\\cadu_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cadu_\\OneDrive\\Área de Trabalho\\SindicoWeb2\\Sindiico2.2\\SindicoWeb2\\obj\\",
+        "outputPath": "C:\\Users\\cadu_\\Desktop\\Sindiico2.2\\SindicoWeb2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\cadu_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -37,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

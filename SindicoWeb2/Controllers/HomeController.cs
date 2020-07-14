@@ -28,11 +28,6 @@ namespace SindicoWeb2.Controllers
             return View();
         }
 
-        public IActionResult Case()
-        {
-            return View();
-        }
-
         public IActionResult Contato()
         {
             return View();

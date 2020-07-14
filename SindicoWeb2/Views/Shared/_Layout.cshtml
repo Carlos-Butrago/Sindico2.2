@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="~/css/estilo.css" />
 </head>
 
-<body style="background-color: aliceblue">
+<body style="background-color: whitesmoke">
 
     <header>
 
+        <nav class="justify-content-md-around navbar-expand-sm border-bottom menu" style="background-color: white">
+             <a asp-controller="Home" asp-action="Index">
+                <img class="logo" src="~/imagem/logo1.png" />
+            </a>
+        </nav>
         <!--Esta nav é para o menu-->
-        <nav class="justify-content-md-around navbar-expand-sm border-bottom  mb-5 menu" style="background-color:seagreen">
-
-            <a class="navbar-brand font-weight-bold logo rounded" style="color:seagreen" asp-controller="Home" asp-action="Index">Síndica Profissional</a>
-
+        <nav class="justify-content-md-around navbar-expand-sm border-bottom  mb-2 menu1">
 
             <div class=" btn-group btn-group-toggle" data-toggle="collapse">
                 <!--
@@ -29,23 +31,21 @@
                 <div class="navbar txt-menu" style="font-family: Arial, Helvetica, sans-serif">
                     <ul class="navbar-nav">
                         <li class="navbar nav-item">
-                            <a class="nav-link" style="color:white" asp-controller="Home" asp-action="Index">HOME</a>
+                            <a class="nav-link" style="color:whitesmoke" asp-controller="Home" asp-action="Index">HOME</a>
                         </li>
                         <li class="navbar nav-item">
-                            <a class="nav-link" style="color:white" asp-controller="Home" asp-action="Servicos">SERVIÇOS</a>
+                            <a class="nav-link" style="color:whitesmoke" asp-controller="Home" asp-action="Servicos">SERVIÇOS</a>
                         </li>
                         <li class="navbar nav-item">
-                            <a class="nav-link " style="color:white" asp-controller="Home" asp-action="Case">CASE</a>
-                        </li>
-                        <li class="navbar nav-item">
-                            <a class="nav-link" style="color:white" asp-controller="Home" asp-action="Contato">CONTATO</a>
+                            <a class="nav-link" style="color:whitesmoke" asp-controller="Home" asp-action="Contato">CONTATO</a>
                         </li>
                     </ul>
                 </div>
             </div>
+
             <form class="form-inline form-bt" method="get" id="searchform">
-                <input class="form-control" id="texto" size="15" type="search" placeholder="Busque no site" aria-label="Busque no site" list="pesquisa">
-                <button class="btn border font-weight-bold" type="submit" style="color:white; font-family:Arial">Buscar</button>
+                <input class="form-control" id="texto" size="30" type="search" placeholder="Busque no site" aria-label="Busque no site" list="pesquisa">
+                <button class="btn border font-weight-bold" type="submit" style="color:whitesmoke; font-family:Arial">Buscar</button>
             </form>
         </nav>
     </header>

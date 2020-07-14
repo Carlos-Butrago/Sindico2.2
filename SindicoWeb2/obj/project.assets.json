@@ -1,24 +1,58 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "NuGet.Frameworks/5.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NuGet.Frameworks/5.6.0": {
+      "sha512": "QKl4ieKQnDnNybLxk5y7TbIHAiYLVXxapCV7AmIr8gVk2wzPwETerlNwks1jCiknfjRPxtAf6XKNln+Q6G4RPA==",
+      "type": "package",
+      "path": "nuget.frameworks/5.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/NuGet.Frameworks.dll",
+        "lib/net40/NuGet.Frameworks.xml",
+        "lib/net472/NuGet.Frameworks.dll",
+        "lib/net472/NuGet.Frameworks.xml",
+        "lib/netstandard2.0/NuGet.Frameworks.dll",
+        "lib/netstandard2.0/NuGet.Frameworks.xml",
+        "nuget.frameworks.5.6.0.nupkg.sha512",
+        "nuget.frameworks.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "NuGet.Frameworks >= 5.6.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\cadu_\\.nuget\\packages\\": {}
+    "C:\\Users\\cadu_\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cadu_\\OneDrive\\Área de Trabalho\\SindicoWeb2\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
+      "projectUniqueName": "C:\\Users\\cadu_\\Desktop\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
       "projectName": "SindicoWeb2",
-      "projectPath": "C:\\Users\\cadu_\\OneDrive\\Área de Trabalho\\SindicoWeb2\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
+      "projectPath": "C:\\Users\\cadu_\\Desktop\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
       "packagesPath": "C:\\Users\\cadu_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cadu_\\OneDrive\\Área de Trabalho\\SindicoWeb2\\Sindiico2.2\\SindicoWeb2\\obj\\",
+      "outputPath": "C:\\Users\\cadu_\\Desktop\\Sindiico2.2\\SindicoWeb2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\cadu_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -43,6 +77,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "NuGet.Frameworks": {
+            "target": "Package",
+            "version": "[5.6.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -61,7 +101,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
