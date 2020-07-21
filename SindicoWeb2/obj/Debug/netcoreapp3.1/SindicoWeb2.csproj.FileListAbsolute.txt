@@ -191,5 +191,11 @@ C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWe
 C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.genruntimeconfig.cache
 C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.csproj.CopyComplete
 C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
 C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.csproj.CoreCompileInputs.cache
 C:\Users\cadu_\Desktop\Sindiico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.MvcApplicationPartsAssemblyInfo.cache

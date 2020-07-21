@@ -14,7 +14,7 @@
     <header>
 
         <nav class="justify-content-md-around navbar-expand-sm border-bottom menu" style="background-color: white">
-             <a asp-controller="Home" asp-action="Index">
+            <a asp-controller="Home" asp-action="Index">
                 <img class="logo" src="~/imagem/logo1.png" />
             </a>
         </nav>
@@ -23,21 +23,41 @@
 
             <div class=" btn-group btn-group-toggle" data-toggle="collapse">
                 <!--
-            <div class="navbar-header">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-            </button>
-        </div>
-            -->
-                <div class="navbar txt-menu" style="font-family: Arial, Helvetica, sans-serif">
-                    <ul class="navbar-nav">
-                        <li class="navbar nav-item">
-                            <a class="nav-link" style="color:whitesmoke" asp-controller="Home" asp-action="Index">HOME</a>
+                    <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    </button>
+                </div>
+                    txt-menu
+                    -->
+                <div style="font-family: Arial, Helvetica, sans-serif">
+                    <ul>
+                        <li>
+                            <a style="color:whitesmoke" asp-controller="Home" asp-action="Index">HOME</a>
                         </li>
-                        <li class="navbar nav-item">
-                            <a class="nav-link" style="color:whitesmoke" asp-controller="Home" asp-action="Servicos">SERVIÇOS</a>
+                        <li>
+                            <a style="color: whitesmoke">SERVIÇOS</a>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        CONSULTORIAS
+                                        <span class="fade fa-plus"></span>
+                                    </a>
+                                    <ul>
+                                        <li><a href="#">GESTÃO FINANCEIRA E ORÇAMENTÁRIA</a></li>
+                                        <li><a href="#">OUTORGA</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">SUSTENTABILIDADE</a>
+                                    <ul>
+                                        <li><a href="#">COLETA SELETIVA</a></li>
+                                        <li><a href="#">TRATAMENTO DE ESGOTO</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
-                        <li class="navbar nav-item">
-                            <a class="nav-link" style="color:whitesmoke" asp-controller="Home" asp-action="Contato">CONTATO</a>
+                        <li>
+                            <a style="color:whitesmoke" asp-controller="Home" asp-action="Contato">CONTATO</a>
                         </li>
                     </ul>
                 </div>
@@ -69,3 +89,10 @@
     @RenderSection("Scripts", required: false)
 </body>
 </html>
+
+
+
+<!--
+
+class="nav-link" style="color:whitesmoke" asp-controller="Home" asp-action="Servicos"
+-->
