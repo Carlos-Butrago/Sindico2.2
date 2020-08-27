@@ -1,16 +1,26 @@
 ﻿
+.index {
+    /*background-color: cyan;*/
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 /*imagem carrousel*/
 
 .img-car {
+    max-width: 100%;
     width: 700px;
-    height: 400px;
-    margin: auto 80px;
+    height: 440px;
+    margin: auto 65px;
 }
 
 .txt-car-1 {
     margin: 0px 0px;
     color: white;
-    background-color: black;
+    background-color: green;
     opacity: 0.9;
     width: 710px;
     height: 40px;
@@ -40,64 +50,21 @@
     font-size: 25px;
 }
 
-/*imagens que compõe o card inicial*/
-
-.card-1 {
-    width: 700px;
-    height: 400px;
-    margin: 80px 80px;
-    background-color: white;
-}
-
-.img-1 {
-    float: left;
-    width: 320px;
-    height: 200px;
-    margin: 20px 15px;
-}
-
-.txt-img-1 {
-    float: left;
-    width: 320px;
-    height: 550px;
-    margin: -10px 20px;
-    padding: 8px;
-}
-
-.img-2 {
-    float: right;
-    width: 320px;
-    height: 200px;
-    margin: -750px 20px;
-}
-
-.txt-img-2 {
-    float: left;
-    width: 335px;
-    height: 25px;
-    margin: -540px 355px;
-    padding: 8px;
-}
-
-.img-ind {
-    background-image: url('/imagem/cond-parq.jpg');
-    width: 1345px;
-    height: 450px;
-    margin: 50px auto;
-}
-
 /*card da direita ao lado do carrousel*/
 
 .card-2 {
+    max-width: 100%;
     float: right;
     background-color: white;
     width: 530px;
     height: 440px;
-    margin: -400px 21px;
+    margin: 0px -50px;
+    flex-wrap: wrap;
 }
 
 .img-3 {
     float: left;
+    width: 100%;
     width: 200px;
     height: 125px;
     margin: 5px 0px;
@@ -111,12 +78,13 @@
 }
 
 .txt-p3 {
-    margin: 15px auto;
+    margin: 20px auto;
 }
 
 
 .img-4 {
     float: left;
+    width: 100%;
     width: 200px;
     height: 125px;
     margin: 12px 0px;
@@ -130,7 +98,7 @@
 }
 
 .txt-p4 {
-    margin: -15px auto;
+    margin: -10px auto;
 }
 
 .img-5 {
@@ -152,6 +120,97 @@
     height: 50px;
 }
 
+/*imagens que compõe o card inicial*/
+
+.card-1 {
+    max-width: 100%;
+    width: 700px;
+    height: 400px;
+    margin: 80px 65px;
+    background-color: white;
+}
+
+.img-1 {
+    float: left;
+    width: 100%;
+    width: 340px;
+    height: 200px;
+    padding: 5px;
+}
+
+.txt-img-1 {
+    float: left;
+    width: 330px;
+    height: 180px;
+    margin: 215px -335px;
+    padding: 5px;
+    /*background-color: green;*/
+}
+
+.img-2 {
+    float: right;
+    width: 100%;
+    width: 340px;
+    height: 200px;
+    margin: 0px 0px;
+    padding: 5px;
+}
+
+.txt-img-2 {
+    float: right;
+    width: 330px;
+    height: 180px;
+    margin: 15px 5px;
+    padding: 5px;
+    /*background-color: green;*/
+}
+
+
+/*Segundo card a esquerda após carrousel*/
+.card-4 {
+    max-width: 100%;
+    width: 700px;
+    height: 400px;
+    margin: -30px 65px;
+    background-color: white;
+}
+
+.img-7 {
+    float: left;
+    width: 100%;
+    width: 340px;
+    height: 200px;
+    margin: 0px 0px;
+    padding: 5px;
+}
+
+.txt-img-7 {
+    float: left;
+    width: 330px;
+    height: 180px;
+    margin: 215px -335px;
+    padding: 5px;
+    /*background-color: green;*/
+}
+
+.img-8 {
+    float: right;
+    width: 100%;
+    width: 340px;
+    height: 200px;
+    margin: 0px 0px;
+    padding: 5px;
+}
+
+.txt-img-8 {
+    float: right;
+    width: 330px;
+    height: 180px;
+    margin: 15px 5px;
+    padding: 5px;
+    /*background-color: green;*/
+}
+
 /*retângulo direito indicando informações*/
 
 .ret-0 {
@@ -166,7 +225,7 @@
 
 .ret-1 {
     float: right;
-    width: 530px;
+    width: 525px;
     height: 25px;
     color: white;
     background-color: dodgerblue;
@@ -179,22 +238,22 @@
 .card-3 {
     float: right;
     background-color: dodgerblue;
-    width: 541px;
-    height: 830px;
-    margin: -780px 21px;
+    width: 530px;
+    height: 850px;
+    margin: -475px -50px;
 }
 
 /*card direita inferior SOLIDARIEDADE*/
 
 .img-6 {
-    width: 530px;
+    width: 520px;
     height: 250px;
     margin: -5px 5px;
 }
 
 .txt-img-6 {
     float: right;
-    width: 525px;
+    width: 500px;
     margin: 5px 10px;
     font-size: 25px;
     text-align: center;
@@ -204,73 +263,15 @@
 
 .txt-p6 {
     margin: 0px 5px;
-    font-size: 18px;
+    font-size: 22px;
     padding: 15px;
     color: black;
     background-color: white;
-    height: 545px;
-    width: 530px;
+    height: 570px;
+    width: 520px;
 }
 
 
-/*Segundo card a esquerda após carrousel*/
-
-.card-4 {
-    width: 700px;
-    height: 400px;
-    margin: -50px 80px;
-    background-color: white;
-}
-
-.img-7 {
-    float: left;
-    width: 320px;
-    height: 200px;
-    margin: -320px 15px;
-}
-
-.txt-img-7 {
-    float: left;
-    width: 320px;
-    height: 550px;
-    margin: -100px 8px;
-    padding: 8px;
-}
-
-.img-8 {
-    float: right;
-    width: 320px;
-    height: 200px;
-    margin: -320px 20px;
-}
-
-.txt-img-8 {
-    float: right;
-    width: 320px;
-    height: 100px;
-    margin: -120px 20px;
-    padding: 8px;
-}
-
-
-/*última imagem da página index*/
-
-.img-ind2 {
-    height: 400px;
-    width: 1199px;
-    background: no-repeat;
-    margin: 130px 150px;
-}
-
-/*fundo texto da última imagem da página index*/
-.text-ind2 {
-    background: linear-gradient(90deg, white 10%, white 50%, transparent);
-    height: 400px;
-    margin: 0px -330px;
-    float: left;
-    padding: 80px;
-    width: 800px;
-}
 
 
 
@@ -318,7 +319,6 @@ nav ul li {
     line-height: 30px;
     margin: 0 25px;
 }
-
 
 
     nav ul li a {
@@ -397,5 +397,5 @@ nav ul li a {
         left: 0;
     }
 }
-   
- */
+   */
+

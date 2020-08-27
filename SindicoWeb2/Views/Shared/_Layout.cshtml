@@ -3,72 +3,65 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Síndica Profissional</title>
+    <title>@ViewData["Title"] - Fmelo</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/css/estilo.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
-<body style="background-color: whitesmoke">
+<body>
+    <!-- justify-content-md-around navbar-expand-sm     -->
+    <nav>
 
-    <header>
-
-        <nav class="justify-content-md-around navbar-expand-sm border-bottom menu" style="background-color: white">
+        <div class="border-bottom menu">
             <a asp-controller="Home" asp-action="Index">
-                <img class="logo" src="~/imagem/logo1.png" />
+                <img class="logo" src="~/imagem/logo-2.png"/>
             </a>
-        </nav>
-        <!--Esta nav é para o menu-->
-        <nav class="justify-content-md-around navbar-expand-sm border-bottom  mb-2 menu1">
+        </div>
 
-            <div class=" btn-group btn-group-toggle" data-toggle="collapse">
-                <!--
-                    <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                    </button>
-                </div>
-                    txt-menu
-                    -->
-                <div style="font-family: Arial, Helvetica, sans-serif">
-                    <ul>
-                        <li>
-                            <a style="color:whitesmoke" asp-controller="Home" asp-action="Index">HOME</a>
-                        </li>
-                        <li>
-                            <a style="color: whitesmoke">SERVIÇOS</a>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        CONSULTORIAS
-                                        <span class="fade fa-plus"></span>
-                                    </a>
-                                    <ul>
-                                        <li><a href="#">GESTÃO FINANCEIRA E ORÇAMENTÁRIA</a></li>
-                                        <li><a href="#">OUTORGA</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">SUSTENTABILIDADE</a>
-                                    <ul>
-                                        <li><a href="#">COLETA SELETIVA</a></li>
-                                        <li><a href="#">TRATAMENTO DE ESGOTO</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a style="color:whitesmoke" asp-controller="Home" asp-action="Contato">CONTATO</a>
-                        </li>
-                    </ul>
-                </div>
+    </nav>
+
+    <!--Esta nav é para o menu-->
+    <nav class="menu-1">
+        <div class=" btn-group btn-group-toggle" data-toggle="collapse">
+
+            <div class="navbar">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                </button>
             </div>
 
-            <form class="form-inline form-bt" method="get" id="searchform">
-                <input class="form-control" id="texto" size="30" type="search" placeholder="Busque no site" aria-label="Busque no site" list="pesquisa">
-                <button class="btn border font-weight-bold" type="submit" style="color:whitesmoke; font-family:Arial">Buscar</button>
-            </form>
-        </nav>
-    </header>
+            <div class="menu-2">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a style="color:whitesmoke" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:whitesmoke" asp-controller="Servicos" asp-action="Gestao">Ser/Con/Gestão</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:whitesmoke" asp-controller="Servicos" asp-action="Outorga">Ser/Con/Outorga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:whitesmoke" asp-controller="Servicos" asp-action="Coleta">Ser/Sus/Coleta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:whitesmoke" asp-controller="Servicos" asp-action="Tratamento">Ser/Sus/Tratamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:whitesmoke" asp-controller="Home" asp-action="Contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <form class="form-inline form-bt" method="get" id="searchform">
+            <input class="form-control" id="texto" size="30" type="search" placeholder="Busque no site" aria-label="Busque no site" list="pesquisa">
+            <button class="btn border font-weight-bold" type="submit" style="color:whitesmoke; font-family:Arial">Buscar</button>
+        </form>
+    </nav>
+
+
 
     <div>
         <main>
@@ -76,12 +69,9 @@
         </main>
     </div>
 
-    <div class="dist-footer"></div>
-
-    <footer class="border-top footer text-muted" style="background-color: black">
-        <div class="container">
-            &copy;2020 - Síndica Profissional
-        </div>
+    <footer class="border-top footer text-muted">
+        &copy;2020 - FMELO ADMINISTRADORA DE CONDOMÍNIOS
+        <img src="~/imagem/logo2.jpeg" width="60" height="60" alt="">
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

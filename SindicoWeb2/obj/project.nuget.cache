@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KfvifWjqEKI1stKIJofQtEVfpFwfTY5/ueWxll6oK9v21iNyXWL5cqGVtsbSofO4xr1xEX2ovLZTa47vUJDi9w==",
+  "dgSpecHash": "SOJxbY8iVo9hwvohG0QtSv6cN34g/K14Jq6eGE4N6aAafwaYw65vkgrZ+OAAL6lQ8BP3oLa1meMsZrwAboHT/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cadu_\\Desktop\\Sindiico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
+  "projectFilePath": "C:\\Users\\cadu_\\Desktop\\Sindico2.2\\SindicoWeb2\\SindicoWeb2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cadu_\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
     "C:\\Users\\cadu_\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",

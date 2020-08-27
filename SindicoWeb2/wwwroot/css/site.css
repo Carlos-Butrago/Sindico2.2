@@ -1,36 +1,60 @@
 ﻿html {
     position: relative;
-    min-height: 100%;
 }
+
 
 
 body {
     margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    min-width: 30%;
+    vertical-align: top;
+    /*display: grid;
+    flex-wrap: wrap;*/
+    background-color: whitesmoke;
+}
+
+p {
+    font-size: 75%;
 }
 
 .footer {
     position: relative;
     bottom: 0;
+    min-width: 30%;
     width: 100%;
     white-space: nowrap;
-    height: 60px;
-    line-height: 60px;
+    height: 75px;
+    margin-top: 0px;
     margin: auto auto;
+    text-align: center;
+    background-color: black;
+    /*margin: -130px auto*/
 }
 
-.dist-footer {
-    background-color: transparent;
-    width: auto;
-    height: 0px;
-}
 
 
 /*confugirações das navs e menu*/
 
 .logo {
-    width: 350px;
-    height: 220px;
-    margin: -40px 480px;
+    float: left;
+    width: 250px;
+    height: 140px;
+    margin: 0px 30px;
+    font-weight: 600;
+    display: flex;
+    flex: 1;
+    cursor: default;
+    user-select: none;
+}
+
+.logo-grp {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin: 0px 200px;
 }
 
 .form-bt {
@@ -39,89 +63,29 @@ body {
     display: inline-block;
 }
 
+
 .menu {
-    height: 140px;
+    height: 150px; /*px anterior 140px*/
+    width: 100%;
+    min-width: 30%;
+    max-width: 100%;
+    background-color: white;
+    margin-bottom: 0px;
+    display: flex;
 }
 
-.menu1 {
+.menu-1 {
     height: 50px;
+    width: 100%;
     background-color: #245A64;
+    font-size: 80%;
+    margin-bottom: 20px;
+    z-index: 1;
 }
 
-/*
-.txt-menu {
-    margin: -25px 42px;
-    width: 50px;
-    height: 50px;
+.menu-2 {
     font-size: 18px;
-}*/
-
-nav ul li {
-    float: left;
-    display: inline-block;
-    background: #245A64;
-    margin: 10px 20px;
-}
-
-    nav ul li a {
-        color: white;
-        padding: 8px 5px;
-        text-decoration: none;
-        font-size: 18px;
-    }
-
-        nav ul li a:hover {
-            color: cyan;
-            border-radius: 5px;
-            box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
-        }
-
-nav ul ul li a:hover {
-    color: cyan;
-    box-shadow: none;
-}
-
-nav ul ul {
-    position: absolute;
-    top: 60px;
-    border-top: 2px solid cyan;
-    opacity: 0;
-    visibility: hidden;
-    transition: top .3s;
-}
-
-nav ul ul ul {
-    border-top: none;
-}
-
-nav ul li:hover > ul {
-    top: 50px;
-    opacity: 1;
-    visibility: visible;
-}
-
-nav ul ul li {
-    position: relative;
-    margin: 0px -40px ;
-    width: 230px;
-    float: none;
-    display: list-item;
-    border-bottom: 1px solid rgba(0,0,0,0.3);
-}
-
-    nav ul ul li a {
-        line-height: 50px;
-    }
-
-nav ul ul ul li {
-    position: relative;
-    margin: -45px 2px;
-    top: -5px;
-    left: 190px;
-    width: 300px;
-}
-
-span .fa-plus {
-    margin-left: 40px;
-    font-size: 15px;
+    word-spacing: 5px;
+    text-indent: 30px;
+    line-height: 50px;
 }

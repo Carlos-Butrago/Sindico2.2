@@ -1,0 +1,36 @@
+﻿.card-col-1 {
+    background-color: white;
+    width: 1300px;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.txt-col {
+    margin-top: 20px;
+    float: left;
+    margin-left: 35px;
+    font-size: 22px;
+    width: 705px;
+    height: 260px;
+    color: #245A64;
+    line-height: 40px;
+}
+
+.img-col{
+    float:right;
+    margin: 20px 30px;
+}
+
+.txt-col-2 {
+    margin-top: 30px;
+    float: left;
+    margin-left: 35px;
+    font-size: 22px;
+    width: 1200px;
+    height: 100px;
+    color: #245A64;
+    line-height: 40px;
+    /*background-color: green;*/
+}

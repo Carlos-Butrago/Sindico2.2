@@ -1,0 +1,86 @@
+﻿/*Primeiro card do Agência nacional*/
+
+.card-ou-1 {
+    background-color: white;
+    width: 1300px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+
+.txt-ana {
+    /*background-color:whitesmoke;*/
+    float: left;
+    width: 600px;
+    height: 260px;
+    margin: 50px 80px;
+    color: #245A64;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-ana {
+    margin: 20px 0px;
+}
+
+
+/*Segundo card SindicoNet Link*/
+
+.card-ou-2 {
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.txt-poco {
+    margin: 0 80px;
+    color: #245A64;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: black;*/
+}
+
+
+.img-poco {
+    float: right;
+    margin: 10px -70px;
+}
+
+.txt-poco-2 {
+    float: left;
+    width: 330px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 5px;
+    line-height: 28px;
+}
+
+.txt-poco-3 {
+    float: left;
+    padding: 5px;
+    width: 700px;
+    height: 200px;
+    margin-left: 85px;
+    margin-top: 20px;
+    /*background-color: green;*/
+    line-height: 30px;
+    color: #245A64;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card-ou-3 {
+    float: right;
+    /*background-color: white;*/
+    width: 490px;
+    height: 500px;
+    margin: -510px 28px;
+}
+
+.img-car-ou{
+    max-width: 100%;
+}
