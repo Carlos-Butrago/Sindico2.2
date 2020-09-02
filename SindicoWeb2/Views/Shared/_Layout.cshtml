@@ -7,59 +7,109 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href-="~/css/menust.css" />
+
+    <script type="text/javascript">
+
+        function relogio() {
+            var data = new Date();
+
+            var horas = data.getHours();
+            var minutos = data.getMinutes();
+            var segundos = data.getSeconds();
+
+            if (horas < 10) {
+                horas = "0" + horas;
+            }
+            if (minutos < 10) {
+                minutos = "0" + minutos;
+            }
+            if (segundos < 10) {
+                segundos = "0" + segundos;
+            }
+            document.getElementById("relogio").innerHTML = horas + ":" + minutos + ":" + segundos;
+
+        }
+
+        window.setInterval("relogio()", 1000);
+
+    </script>
+
+
 </head>
 
-<body>
+<body onload="relogio(); data();">
     <!-- justify-content-md-around navbar-expand-sm     -->
     <nav>
-
-        <div class="border-bottom menu">
+        <div class="menu2" style="background-color: white">
             <a asp-controller="Home" asp-action="Index">
-                <img class="logo" src="~/imagem/logo-2.png"/>
+                <img style=" margin: 0px 25px;" class="logo1" src="~/imagem/logo-2.png" width="250" height="200" alt="" />
             </a>
+            <div style=" float: right; margin-top:150px; margin-right:160px; color: #245A64; height: 35px; width:800px; font-family: Arial, Helvetica, sans-serif;">
+                <div style="margin-top: 5px; font-size: 18px">
+                    <div id="relogio" style="text-align: right; margin: 0px 0px;"></div>
+                </div>
+            </div>
+            <div style="font-size: 30px; width:10px; height: 50px; float:right; margin: 140px -830px; color: darkgray">|</div>
+            <div style=" width:100px; height: 60px; float:right; margin-top:130px; margin-right: -930px;">
+                <a target="_blank" href="https://mail.google.com/mail/u/0/">
+                    <img src="~/imagem/email.png" width="30" height="30" alt="" style="border-radius: 50%; margin-right:5px; margin-top:20px; float: right">
+                </a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=5565992616979&text=Ol%C3%A1,%20vi%20seu%20whats%20no%20site.%20Aviso:%20Devido%20a%20alta%20demanda,%20pedimos%20a%20compreens%C3%A3o%20em%20eventual%20espera%20no%20atendimento.%20Para%20maior%20agilidade,%20pe%C3%A7a%20pelo%20aplicativo%20Ultragaz%20Connect.">
+                    <img src="~/imagem/whats.jfif" width="30" height="30" alt="" style="border-radius: 50%; margin-right: 50px; margin-top:-30px; float: right">
+                </a>
+            </div>
         </div>
 
     </nav>
 
     <!--Esta nav é para o menu-->
-    <nav class="menu-1">
-        <div class=" btn-group btn-group-toggle" data-toggle="collapse">
 
-            <div class="navbar">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                </button>
-            </div>
+    <nav class="navbar navbar-expand-lg" style="background-color:#245A64; margin-bottom:10px;">
+        <a style="margin-left:40px;"></a>
+        <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="menu-2">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a style="color:whitesmoke" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color:whitesmoke" asp-controller="Servicos" asp-action="Gestao">Ser/Con/Gestão</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color:whitesmoke" asp-controller="Servicos" asp-action="Outorga">Ser/Con/Outorga</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color:whitesmoke" asp-controller="Servicos" asp-action="Coleta">Ser/Sus/Coleta</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color:whitesmoke" asp-controller="Servicos" asp-action="Tratamento">Ser/Sus/Tratamento</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color:whitesmoke" asp-controller="Home" asp-action="Contato">Contato</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" style="color:whitesmoke;" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                </li>
 
+
+                <li class="nav-item dropdown">
+                    <a style="color:whitesmoke" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Consultoria
+                    </a>
+                    <div class="dropdown-menu" style="background-color:#245A64" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" style="color:whitesmoke; background-color:#245A64; font-size:18px;" asp-controller="Consultoria" asp-action="Gestao">Gestão Financeira</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" style="color:whitesmoke; background-color:#245A64; font-size:18px;" asp-controller="Consultoria" asp-action="Outorga">Outorga</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a style="color:whitesmoke" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sustentabilidade
+                    </a>
+                    <div class="dropdown-menu" style="background-color:#245A64" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" style="color:whitesmoke; background-color:#245A64; font-size:18px;" asp-controller="Sustentabilidade" asp-action="Coleta">Coleta Seletiva</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" style="color:whitesmoke; background-color:#245A64; font-size:18px;" asp-controller="Sustentabilidade" asp-action="Tratamento">Tratamento de Esgoto</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" style="color:whitesmoke" asp-controller="Home" asp-action="Contato">Contato</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" style="margin-right:20px;">
+                <input class="form-control mr-sm-2" type="search" placeholder="Busque aqui!" aria-label="Search">
+                <button class="btn btn-outline-light font-weight-bold my-2 my-sm-0" type="submit" style="color:whitesmoke; background-color:#245A64; font-family: Arial">Buscar</button>
+            </form>
         </div>
-
-        <form class="form-inline form-bt" method="get" id="searchform">
-            <input class="form-control" id="texto" size="30" type="search" placeholder="Busque no site" aria-label="Busque no site" list="pesquisa">
-            <button class="btn border font-weight-bold" type="submit" style="color:whitesmoke; font-family:Arial">Buscar</button>
-        </form>
     </nav>
+
 
 
 
@@ -73,6 +123,8 @@
         &copy;2020 - FMELO ADMINISTRADORA DE CONDOMÍNIOS
         <img src="~/imagem/logo2.jpeg" width="60" height="60" alt="">
     </footer>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

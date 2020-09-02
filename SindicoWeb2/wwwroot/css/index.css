@@ -17,6 +17,12 @@
     margin: auto 65px;
 }
 
+@media not all and(max-width: 600px){
+    .img-car{
+        background-color:whitesmoke;
+    }
+}
+
 .txt-car-1 {
     margin: 0px 0px;
     color: white;

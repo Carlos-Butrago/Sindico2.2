@@ -5,24 +5,15 @@ using SindicoWeb2.Models;
 
 namespace SindicoWeb2.Controllers
 {
-    public class Servicos : Controller
+    public class Sustentabilidade : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        public Servicos(ILogger<HomeController> logger)
+        public Sustentabilidade(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Gestao()
-        {
-            return View();
-        }
-
-        public IActionResult Outorga()
-        {
-            return View();
-        }
 
         public IActionResult Coleta()
         {
