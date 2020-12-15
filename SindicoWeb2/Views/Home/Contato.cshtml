@@ -3,32 +3,90 @@
 }
 
 
-<div style="background-color: white; width: 100%">
-    <div id="card1" style="text-align: center; margin-top:-20px; margin-bottom:25px;">
-        <img src="~/imagem/logo-2.png" width="170" height="150" alt="" />
-        <div style="color:#263238; width: 400px; height: 150px; text-align: center; margin-left:480px;">
-            <h2>CONTATO</h2>
-            <h4>Gostaríamos muito de ouvir você!</h4>
+<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contato</h2>
+    <!--Section description-->
+    <h4 class="text-center w-responsive mx-auto mb-5">
+        Gostaríamos muito de ouvir você.
+    </h4>
+
+    <div class="row" style="width:1000px; height: auto; margin-left: 200px;">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Seu nome</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Seu email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+               
+                <!--Grid row-->
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Sua mensagem</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+            </div>
+            <div class="status"></div>
         </div>
+        <!--Grid column-->
+        <!--Grid column-->
+        <div class="col-md-3 text-center" style="padding:10px;">
+            <ul class="list-unstyled mb-0">
+                <li>
+                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                    <h5>Cuiabá, Mato Grosso, Brasil</h5>
+                </li>
+
+                <li>
+                    <i class="fas fa-phone mt-4 fa-2x"></i>
+                    <h5>(65) 9-9261-6979</h5>
+                </li>
+
+                <li>
+                    <i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <h5>franciscaeuzilene@gmail.com</h5>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
     </div>
 
-    <div id="card2" style="background-color:white; margin-bottom:-10px;">
-        <a href="https://api.whatsapp.com/send?phone=5565992616979&text=Ol%C3%A1,%20vi%20seu%20whats%20no%20site.%20Aviso:%20Devido%20a%20alta%20demanda,%20pedimos%20a%20compreens%C3%A3o%20em%20eventual%20espera%20no%20atendimento.%20Para%20maior%20agilidade,%20pe%C3%A7a%20pelo%20aplicativo%20Ultragaz%20Connect."
-           style="text-decoration:none;  ">
-            <img src="~/imagem/whats.jfif" width="100" height="100" alt="" style="border-radius:50%;
-            margin: 10px 440px;" />
-        </a>
-        <div style="color:#263238; margin: 20px 410px; font-family:Arial, Helvetica, sans-serif;">
-            <h3>TELEFONE</h3>
-            <h5>(65)9-9261-6979</h5>
-        </div>
-
-        <a href="#" style="text-decoration:none; float: right; margin: -210px 450px;">
-            <img src="~/imagem/email.png" width="100" height="100" alt="" style="border-radius:50%;" />
-        </a>
-        <div style="color:#263238; font-family:Arial, Helvetica, sans-serif; text-align:center; margin: -85px 365px; float:right">
-            <h3>E-MAIL</h3>
-            <h5>franciscaeuzilene@gmail.com</h5>
-        </div>
-    </div>
-</div>
+</section>
+<!--Section: Contact v.2-->

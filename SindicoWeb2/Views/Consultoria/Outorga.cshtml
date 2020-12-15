@@ -2,13 +2,98 @@
     ViewData["Title"] = "Outorga";
 }
 
-<head>
-    <link rel="stylesheet" href="~/css/outorga.css" />
-</head>
+<style>
+    body {
+        background-color: white;
+    }
 
-<div style="background-color: whitesmoke">
-    <div class="card-ou-1">
-        <div class="txt-ana">
+    .breadcrumb {
+        background-color: white;
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 2px;
+        height: 30px;
+    }
+
+    .breadcrumb-item {
+        padding: 0px 5px;
+    }
+
+
+
+    .title-gest {
+        font-size: 70px;
+        font-family: Verdana;
+        text-align: center;
+        color: #37474F;
+        font-weight: 500;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .container {
+        width: 100vw;
+        height: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .img-poco {
+        width: 100vw;
+        height: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: -100px;
+    }
+
+    .text-gest {
+        margin-top: -70px;
+        font-size: 25px;
+        padding: 25px;
+        background-color: white;
+        width: 59vw;
+        height: 40vw;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 270px;
+    }
+
+</style>
+
+<body>
+    <header>
+        <nav arial-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    Consultoria
+                </li>
+                <li class="breadcrumb" style="color:#245A64; padding: 0px 2px">/</li>
+                <li class="breadcrumb-item">
+                    Outorga
+                </li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <div class="title-gest">
+            OUTORGA
+        </div>
+    </main>
+
+    <div class="container">
+        <img src="~/imagem/ana.jpg" width="800" height="400" />
+    </div>
+
+    <article>
+        <div class="text-gest">
             <a style="font-size: 45px; font-family:'Comic Sans MS'; color:#D32F2F" class="mx-2">As</a>
             atividades humanas que provocam alterações nas condições naturais das
             águas são consideradas "usos", como, por exemplo, irrigação, abastecimento,
@@ -23,93 +108,27 @@
                 Agência Nacional de Águas de Saneamento Básico.
             </a>
         </div>
-        <img class="img-ana" src="~/imagem/ana.jpg" width="400" height="200" alt="" />
-    </div>
-</div>
 
-<div class="card-ou-2">
-    <div class="txt-poco">
-        <a style="font-size: 35px; font-family:'Comic Sans MS'; color:#D32F2F" class="mx-2">
-            Poços artesianos
-        </a>
-        <img class="img-poco" src="~/imagem/pocos.jpg" width="350" height="250" alt="" />
+        <div class="img-poco">
+            <img src="~/imagem/pocos.jpg" width="800" height="400" />
+        </div>
 
-        <div class="txt-poco-2">
+        <div class="text-gest">
             Obra requer planejamento, traz riscos, mas pode evitar desabastecimento no condomínio
             Com os problemas de abastecimento de água se agravando, muitos condomínios têm buscado
             uma forma de se resguardar da falta desse insumo.
+
+            O poço artesiano pode ser uma opção para esses casos. Afinal,
+            ninguém quer ficar refém do abastecimento – que está precário em diversas regiões
+            – e não depender dos caminhões-pipa, que também podem faltar e cujos preços, estima-se,
+            irão subir bastante.
+
+
+            Mas para Alexandre Furlan Braz, especialista em gestão ambiental e diretor do
+            Instituto Muda, o poço artesiano não é o "plano B" ideal para condomínios,
+            <a style="text-decoration:none;" href="https://www.sindiconet.com.br/informese/pocos-artesianos-manutencao-pocos-artesianos">
+                Confira!
+            </a>
         </div>
-    </div>
-    <div class="txt-poco-3">
-        O poço artesiano pode ser uma opção para esses casos. Afinal,
-        ninguém quer ficar refém do abastecimento – que está precário em diversas regiões
-        – e não depender dos caminhões-pipa, que também podem faltar e cujos preços, estima-se,
-        irão subir bastante.
-
-
-        Mas para Alexandre Furlan Braz, especialista em gestão ambiental e diretor do
-        Instituto Muda, o poço artesiano não é o "plano B" ideal para condomínios,
-        <a style="text-decoration:none;" href="https://www.sindiconet.com.br/informese/pocos-artesianos-manutencao-pocos-artesianos">
-            Confira!
-        </a>
-    </div>
-</div>
-
-<div class="card-ou-3">
-    <div class="img-car-ou">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-            <ol class="carousel-indicators">
-                <li data-target="myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="myCarousel" data-slide-to="1"></li>
-                <li data-target="myCarousel" data-slide-to="2"></li>
-            </ol>
-
-
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="https://www.sindiconet.com.br/informese/como-a-norma-de-inspecao-predial-se-aplica-aos-condominios-manutencao-manutencao-predial">
-                        <img style="opacity: 0.9;" class="w-100 d-block" src="~/imagem/inspecao-ou.jpg" width="375" height="500" alt="" />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="font-weight-bolder" style="color: white;font-family: Arial, Helvetica, sans-serif;font-size: 30px;">
-                                INSPEÇÃO PREDIAL
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="carousel-item">
-                    <a href="https://www.sindiconet.com.br/informese/consideracoes-sobre-o-veto-de-bolsonaro-no-pl-117920-sindiconet-tv-serie-especialistas">
-                        <img style="opacity: 0.9;" class="w-100 d-block" src="~/imagem/noticia-ou.jpg" width="375" height="500" alt="" />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="font-weight-bolder" style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 25px;">
-                                CONSIDERAÇÕES SOBRE O VETO DE BOLSONARO NO PL 1179/20
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://aosindico.com/informe/sindicos-nao-acatam-veto-e-decidem-manter-areas-comuns-fechadas">
-                        <img style="opacity: 0.9;" class="w-100 d-block" src="~/imagem/noticia-sindico-ou.jpg" width="375" height="500" alt="" />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="font-weight-bolder" style=" color: white; font-family: Arial, Helvetica, sans-serif; font-size: 24px;">
-                                SÍNDICOS NÃO ACATAM VETO E DECIDEM MANTER ÁREAS COMUNS FECHADAS
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-
-
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                    <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                    <span class="sr-only">Avançar</span>
-                </a>
-
-            </div>
-        </div>
-    </div>
-</div>
+    </article>
+</body>

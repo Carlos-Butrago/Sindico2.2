@@ -202,3 +202,4 @@ C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\staticweba
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.dll
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.pdb
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.genruntimeconfig.cache
+C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.csprojAssemblyReference.cache

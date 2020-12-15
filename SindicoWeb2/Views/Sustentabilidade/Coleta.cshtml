@@ -1,13 +1,98 @@
 ﻿@{
     ViewData["Title"] = "Coleta-Seletiva";
 }
-<head>
-    <link rel="stylesheet" href="~/css/coleta.css" />
-</head>
 
-<div style="background-color:whitesmoke">
-    <div class="card-col-1">
-        <div class="txt-col">
+<style>
+    body {
+        background-color: white;
+    }
+
+    .breadcrumb {
+        background-color: white;
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 2px;
+        height: 30px;
+    }
+
+    .breadcrumb-item {
+        padding: 0px 5px;
+    }
+
+
+
+    .title-gest {
+        font-size: 70px;
+        font-family: Verdana;
+        text-align: center;
+        color: #37474F;
+        font-weight: 500;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .container {
+        width: 100vw;
+        height: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .img-poco {
+        width: 100vw;
+        height: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: -100px;
+    }
+
+    .text-gest {
+        margin-top: -70px;
+        font-size: 25px;
+        padding: 25px;
+        background-color: white;
+        width: 59vw;
+        height: 40vw;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 270px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav arial-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    Sustentabilidade
+                </li>
+                <li class="breadcrumb" style="color:#245A64; padding: 0px 2px">/</li>
+                <li class="breadcrumb-item">
+                    Coleta
+                </li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <div class="title-gest">
+            COLETA
+        </div>
+    </main>
+
+    <div class="container">
+        <img src="~/imagem/coleta.jpg" width="800" height="400" />
+    </div>
+
+    <article>
+        <div class="text-gest">
             <a style="font-size: 45px; font-family:'Comic Sans MS'; color:#D32F2F" class="mx-2">
                 Coleta
             </a>
@@ -18,11 +103,7 @@
             A conscientização em escolas e propagandas se mostra muito eficaz, a população tem tomado
             a frente na seleção do lixo afim de garantir uma melhor qualidade de vida e a preservação
             do meio ambiente.
-        </div>
-        <a href="https://sindicolegal.com/coleta-seletiva-dentro-dos-condominios/">
-            <img class="img-col" src="~/imagem/coleta.jpg" width="500" height="300" alt="" />
-        </a>
-        <div class="txt-col-2">
+
             <a style="font-size: 45px; font-family:'Comic Sans MS'; color:#D32F2F" class="mx-2">
                 Tal
             </a>
@@ -34,5 +115,6 @@
                 Como você divulga a importância da coleta seletiva em seu condomínio?
             </a>
         </div>
-    </div>
-</div>
+    </article>
+
+</body>

@@ -2,14 +2,97 @@
     ViewData["Title"] = "Tratamento-de-Esgoto";
 }
 
-<head>
-    <link rel="stylesheet" href="~/css/tratamento.css" />
-</head>
+<style>
+    body {
+        background-color: white;
+    }
+
+    .breadcrumb {
+        background-color: white;
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 2px;
+        height: 30px;
+    }
+
+    .breadcrumb-item {
+        padding: 0px 5px;
+    }
 
 
-<div style="background-color: whitesmoke">
-    <div class="card-tra">
-        <div class="txt-tra-1">
+
+    .title-gest {
+        font-size: 70px;
+        font-family: Verdana;
+        text-align: center;
+        color: #37474F;
+        font-weight: 500;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .container {
+        width: 100vw;
+        height: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .img-poco {
+        width: 100vw;
+        height: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: -100px;
+    }
+
+    .text-gest {
+        margin-top: -70px;
+        font-size: 25px;
+        padding: 25px;
+        background-color: white;
+        width: 59vw;
+        height: 40vw;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 270px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav arial-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    Sustentabilidade
+                </li>
+                <li class="breadcrumb" style="color:#245A64; padding: 0px 2px">/</li>
+                <li class="breadcrumb-item">
+                    Coleta
+                </li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <div class="title-gest">
+            TRATAMENTO
+        </div>
+    </main>
+
+    <div class="container">
+        <img src="~/imagem/canos.jpg" width="800" height="400" />
+    </div>
+
+    <article>
+        <div class="text-gest">
             <a style="font-size: 45px; font-family:'Comic Sans MS'; color:#D32F2F" class="mx-2">
                 Entupimentos
             </a>
@@ -17,11 +100,7 @@
             Em um sábado de noite, o pior aconteceu no condomínio onde José é síndico e morador.
             Primeiro, foram os lamentos de alguns moradores. Logo depois, foi o zelador, desavisado,
             a próxima vítima desse terrível mal que habita tantos condomínios.
-        </div>
-        <a href="https://www.sindiconet.com.br/informese/entupimentos-em-condominio-manutencao-encanamentos">
-            <img class="img-tra" src="~/imagem/canos.jpg" width="500" height="300" alt="" />
-        </a>
-        <div class="txt-tra-2">
+
             <a style="font-size: 45px; font-family:'Comic Sans MS'; color:#D32F2F" class="mx-2">
                 Só
             </a>
@@ -35,5 +114,5 @@
                 SAIBA MAIS SOBRE!
             </a>
         </div>
-    </div>
-</div>
+    </article>
+</body>

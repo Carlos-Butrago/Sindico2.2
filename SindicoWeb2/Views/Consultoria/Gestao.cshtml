@@ -2,63 +2,130 @@
     ViewData["Title"] = "Gestão Financeira e Orçamentária";
 }
 
-<head>
-    <link rel="stylesheet" href="~/css/gestao.css" />
-</head>
+
+<style>
 
 
-<div class="img-g1">
-    <div class="card-g1">
-        <a style="text-decoration:none;" href="https://www.sindiconet.com.br/informese/como-fazer-a-previsao-orcamentaria-do-condominio-administracao-financas">
-            <div class="card-n11">
-                <h1>1º</h1>
-            </div>
-            <div class="card-n1">
-                CONHEÇA O HISTÓRICO DE CONTAS DO SEU CONDOMÍNIO
-            </div>
-        </a>
-        <a style="text-decoration:none;" href="https://www.sindiconet.com.br/informese/como-fazer-a-previsao-orcamentaria-do-condominio-administracao-financas">
+    body {
+        background-color: white;
+    }
 
-            <div class="card-n22">
-                <h1>2º</h1>
-            </div>
-            <div class="card-n2">
-                PEÇA AJUDA PARA A ADMINISTRADORA
-            </div>
-        </a>
-        <a style="text-decoration:none;" href="https://www.sindiconet.com.br/informese/como-fazer-a-previsao-orcamentaria-do-condominio-administracao-financas">
-            <div class="card-n33">
-                <h1>3º</h1>
-            </div>
-            <div class="card-n3">
-                DÍVIDA AS CONTAS DO CONDOMÍNIO EM PEQUENOS GRUPOS E FAÇA UMA MÉDIA MENSAL
-            </div>
-        </a>
-    </div>
-</div>
+    .breadcrumb {
+        background-color: white;
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 2px;
+        height: 30px;
+    }
+
+    .breadcrumb-item {
+        padding: 0px 5px;
+    }
 
 
-<div class="img-g2">
-    <div class="card-title-g">
-        <div class="title-g">
-            <h1>Gestão Financeira e Orçamentária</h1>
+
+    .title-gest {
+        font-size: 40px;
+        font-family: Verdana;
+        text-align: center;
+        color: #37474F;
+        font-weight: 500;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .container {
+        width: 100vw;
+        height: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .text-gest {
+        margin-top: -70px;
+        font-size: 25px;
+        padding: 25px;
+        background-color: white;
+        width: 59vw;
+        height: 75vw;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 270px;
+    }
+
+    .text-gest2 {
+        list-style-type: '\057B';
+        margin-top: 20px;
+        font-size: 19px;
+        word-spacing: 8px;
+        text-indent: 5px;
+    }
+</style>
+
+
+
+<body>
+    <header>
+        <nav arial-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    Consultoria
+                </li>
+                <li class="breadcrumb" style="color:#245A64; padding: 0px 2px">/</li>
+                <li class="breadcrumb-item">
+                    Gestão Financeira e Orçamentária
+                </li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <div class="title-gest">
+            GESTÃO FINANCEIRA E ORÇAMENTÁRIA
         </div>
-        <div class="text-g">
-            <div>
-                Mudança do valor da cota condominial, emissão de taxa extra, manutenções atrasadas ou mal feitas, aumento da inadimplência... tudo isso pode ser um grande problema para o síndico.
+    </main>
 
-                Isso porque as finanças são uma parte crucial de uma boa gestão do condomínio, e a previsão orçamentária é o grande alicerce das finanças do empreendimento durante aquele período.
-
-                E como não poderia deixar de ser, o
-                <a style="font-size: 18px; color: #FF9800">SíndicoNet</a>
-                preparou um passo-a-passo para você não deixar passar nenhum detalhe e fazer uma previsão orçamentária completa.
-
-                Há também uma planilha que ajudará a fazer a sua previsão mais fácil também.
-
-                <a style="margin-top: 20px;" href="https://www.sindiconet.com.br/informese/como-fazer-a-previsao-orcamentaria-do-condominio-administracao-financas">
-                    Confira!
-                </a>
-            </div>
-        </div>
+    <div class="container">
+        <img src="~/imagem/cond1.jpg" width="800" height="400" />
     </div>
-</div>
+
+    <article>
+        <div class="text-gest">
+            Mudança do valor da cota condominial, emissão de taxa extra, manutenções atrasadas ou mal
+            feitas, aumento da inadimplência... tudo isso pode ser um grande problema para o síndico.
+
+            Isso porque as finanças são uma parte crucial de uma boa gestão do condomínio, e a
+            previsão orçamentária é o grande alicerce das finanças do empreendimento durante aquele
+            período.
+
+            E como não poderia deixar de ser, confira
+            o passo-a-passo para você não deixar passar nenhum detalhe e fazer uma previsão
+            orçamentária completa.
+
+            Há também uma planilha que ajudará a fazer a sua previsão mais fácil também.
+
+            <a style="margin-top: 20px;" href="https://www.sindiconet.com.br/informese/como-fazer-a-previsao-orcamentaria-do-condominio-administracao-financas">
+                Confira!
+            </a>
+
+            <ol class="text-gest2">
+                <li> CONHEÇA O HISTÓRICO DE CONTAS DO SEU CONDOMÍNIO</li>
+                <li> PEÇA AJUDA PARA A ADMINISTRADORA</li>
+                <li>  DIVIDA AS CONTAS DO CONDOMÍNIO EM PEQUENOS GRUPOS E FAÇA UMA MÉDIA MENSAL</li>
+                <li> PROJETE OS ÍNDICES PARA O PRÓXIMO ANO</li>
+                <li> LEVE EM CONTA A INADIMPLÊNCIA</li>
+                <li>  SEPARE BEM O QUE É BENFEITORIA DO QUE É MANUTENÇÃO</li>
+                <li>  UMA “GORDURA” É IMPORTANTE</li>
+                <li> APRESENTANDO A PREVISÃO EM ASSEMBLEIA</li>
+                <li>  E SE A PREVISÃO ORÇAMENTÁRIA NÃO SE MOSTRAR SUFICIENTE NO DECORRER DO EXERCÍCIO?</li>
+                <li>  O QUE FAZER CASO A PREVISÃO NÃO SEJA APROVADA EM ASSEMBLEIA?</li>
+                <li>  PLANILHA DE PREVISÃO ORÇAMENTÁRIA</li>
+                <li>  ERROS COMUNS AO FAZER A PREVISÃO ORÇAMENTÁRIA</li>
+            </ol>
+        </div>
+    </article>
+</body>
