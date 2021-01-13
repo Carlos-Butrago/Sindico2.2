@@ -174,8 +174,6 @@ C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\Microsoft.
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.AssemblyInfoInputs.cache
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.AssemblyInfo.cs
-C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.csproj.CoreCompileInputs.cache
-C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.RazorAssemblyInfo.cache
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.RazorAssemblyInfo.cs
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.TagHelpers.input.cache
@@ -203,3 +201,10 @@ C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.pdb
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.genruntimeconfig.cache
 C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.csprojAssemblyReference.cache
+C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.csproj.CoreCompileInputs.cache
+C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\obj\Debug\netcoreapp3.1\SindicoWeb2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.dll
+C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\SendGridMail.dll
+C:\Users\cadu_\Desktop\Sindico2.2\SindicoWeb2\bin\Debug\netcoreapp3.1\SendGrid.SmtpApi.dll
